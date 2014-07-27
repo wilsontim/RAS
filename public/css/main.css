@@ -17,15 +17,32 @@
 }
 
 .jumbotron {
-	background-image: url(/images/Grocery_freezer_aisle.jpg);
+	background-image: url(/images/#);
 	background-size: cover;
 	width:100%;
 }
 
 .jumbotron h1 {
-	color: #fff;
+	color: #0066CC;
 }
 
 .jumbotron p {
-	color: #fff
+	color: #0066CC;
+}
+
+.row {
+	padding: 50px;
+}
+
+.navbar-brand {
+	padding-top:0px;
+	padding-left:25px;
+}
+
+.panel-footer {
+	width:100%;
+}
+
+.col-md-12 p {
+	padding-top: 15px;
 }
