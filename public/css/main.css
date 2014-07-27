@@ -11,3 +11,21 @@
 	font-size: 12px;
 	text-transform: uppercase;
 }
+
+.container {
+	width: 100%;
+}
+
+.jumbotron {
+	background-image: url(/images/Grocery_freezer_aisle.jpg);
+	background-size: cover;
+	width:100%;
+}
+
+.jumbotron h1 {
+	color: #fff;
+}
+
+.jumbotron p {
+	color: #fff
+}
