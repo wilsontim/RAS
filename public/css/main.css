@@ -41,4 +41,11 @@
 
 .col-md-12 p {
 	padding-top: 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+.panel-footer {
+	border-bottom-right-radius: 0px;
+  	border-bottom-left-radius: 0px;
+}
 }
