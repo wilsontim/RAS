@@ -17,17 +17,28 @@
 }
 
 .jumbotron {
-	background-image: url(/images/#);
+	background-image: url(/images/white_cloud_at_blue_sky_199201.jpg);
 	background-size: cover;
 	width:100%;
 }
 
+.jumbotron .row .wrap-banner {
+	float:left;
+	margin-left: -80px;
+	margin-right: 0px;
+	padding-left: 100px;
+	padding-right: 100px;
+	background: #52bdf2;
+  background: rgba(126,128,135,0.5);
+
+}
+
 .jumbotron h1 {
-	color: #0066CC;
+	color: white;
 }
 
 .jumbotron p {
-	color: #0066CC;
+	color: white;
 }
 
 .row {
@@ -38,10 +49,6 @@
 	padding-top:0px;
 	padding-left:25px;
 }
-
-.col-md-12 p {
-	padding-top: 15px;
-	border-bottom: 1px solid #ddd;
 }
 
 .panel-footer {
