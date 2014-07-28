@@ -22,13 +22,12 @@
 	width:100%;
 }
 
-.jumbotron .row .wrap-banner {
+.jumbotron .row .col-lg-12 {
 	float:left;
 	margin-left: -80px;
 	margin-right: 0px;
 	padding-left: 100px;
 	padding-right: 100px;
-	background: #52bdf2;
   background: rgba(126,128,135,0.5);
 
 }
