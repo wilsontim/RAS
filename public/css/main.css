@@ -1,3 +1,8 @@
+.panel-footer {
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
 .nav li {
 	display: inline;
 }
@@ -19,17 +24,23 @@
 .jumbotron {
 	background-image: url(/images/white_cloud_at_blue_sky_199201.jpg);
 	background-size: cover;
-	width:100%;
+	width:100% !important;
 }
 
-.jumbotron .row .col-lg-12 {
-	float:left;
+.my-fluid-container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.jumbotron .my-fluid-container {
+  background: rgba(126,128,135,0.5);
 	margin-left: -80px;
-	margin-right: 0px;
+	margin-right: -80px;
 	padding-left: 100px;
 	padding-right: 100px;
-  background: rgba(126,128,135,0.5);
-
+	bottom:0;
 }
 
 .jumbotron h1 {
@@ -47,11 +58,4 @@
 .navbar-brand {
 	padding-top:0px;
 	padding-left:25px;
-}
-}
-
-.panel-footer {
-	border-bottom-right-radius: 0px;
-  	border-bottom-left-radius: 0px;
-}
-}
+	}
