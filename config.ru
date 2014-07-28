@@ -15,7 +15,7 @@ map "/" do
 }
 end
 
-map "/portfolio" do
+map "/supermarkets" do
   run lambda { |env|
   [
     200,
@@ -23,7 +23,7 @@ map "/portfolio" do
       'Content-Type'  => 'text/html',
       'Cache-Control' => 'public, max-age=86400'
     },
-    File.open('public/portfolio/index.html', File::RDONLY)
+    File.open('public/supermarkets.html', File::RDONLY)
   ]
 }
 end
